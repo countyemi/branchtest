@@ -4,7 +4,7 @@ name: second
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   workflow_run:
-    workflows: [ "first" ]
+    workflows: [first]
     branches: ["main"]
     types:
       - completed
