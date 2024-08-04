@@ -6,8 +6,7 @@ on:
   workflow_run:
     workflows: [first]
     branches: ["main"]
-    types:
-      - completed
+    types: [completed]
   push:
     branches: ["two"]
   pull_request:
